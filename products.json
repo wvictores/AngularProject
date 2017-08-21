@@ -1,0 +1,23 @@
+[{
+	"name": "Dodecahedron",
+	"price": 10.95,
+	"description": "Some gems have hidden qualities beyond their lustre, beyond theirshine... Dodecahedron is one of those gems.",
+	"canPurchase": true,
+	"images": [{
+		"full": "https://raw.githubusercontent.com/CodingTemple/CodingTemple.Angular.GemStore/master/images/gem-01.gif"
+	}],
+	"reviews": [{
+		"stars": 5,
+		"body": "I love this product",
+		"author": "josephj@codingtemple.com"
+	}]
+}, {
+	"name": "Pentagonal",
+	"price": 5.95,
+	"description": "The pentagonal gem 's origin is unknown, hence it's low price.",
+	"canPurchase": true,
+	"images ": [{
+		"full ": "https: //raw.githubusercontent.com/CodingTemple/CodingTemple.Angular.GemStore/master/images/gem-02.gif"
+	}]
+
+}]

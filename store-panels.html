@@ -1,0 +1,15 @@
+<ul class="nav nav-pills">
+    <li ng-class="{active:tab ===1}"><a href ng-click="selectTab(1)">Description</a></li>
+    <li ng-class="{active:tab ===2}"><a href ng-click="selectTab(2)">Specifications</a></li>
+    <li ng-class="{active:tab ===3}"><a href ng-click="selectTab(3)">Reviews</a></li>
+</ul>
+<div class="panel" ng-show="tab === 1">
+    <h4>Description</h4>
+    <p>{{product.description}}</p>
+</div>
+<div class="panel" ng-show="tab === 2">
+    <h4>Specifications</h4>
+    <blockquote>In Development</blockquote>
+</div>
+<div class="panel" ng-show="tab === 3" store-reviews>
+</div>

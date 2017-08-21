@@ -1,0 +1,13 @@
+<div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="product in Model">
+                <div class="panel panel-default">
+                    <div class="panel-heading"> {{product.name}} </div>
+                    <div class="panel-body"> <span class="pull-right">
+                            {{product.price | currency}}
+                        </span>
+                        <p ng-repeat="image in product.images"> <img ng-src="{{image.full}}" /> </p>
+                        <section store-panels>
+                        </section>
+                        <button ng-show="product.canPurchase" class="btn btn-default">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
